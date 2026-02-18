@@ -1,0 +1,92 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(to right, #3c6aa9, #c75d60);
+    margin: 0;
+    padding: 0;
+}
+
+.signup-container {
+    max-width: 450px;
+    margin: 150px auto;
+    padding: 45px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(251, 247, 247, 0.15);
+    animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+    text-align: center;
+    color: #050215dd;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #0c0101;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    padding: 13px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #f9f9f9;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #9ba4eb;
+    background-color: #fff;
+    outline: none;
+}
+
+button {
+    width: 96%;
+    padding: 10px;
+    background: linear-gradient(to right, #6b85db, #6b85db);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(to right, #adc4e4, #adc4e4);
+}
+
+p {
+    text-align: center;
+    color: #666;
+    margin-top: 15px;
+}
+
+a {
+    color: #070b47df;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Simple fade animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
